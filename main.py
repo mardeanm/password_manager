@@ -8,7 +8,7 @@ DEFAULT_EMAIL = "mardean@csu.fullerton.edu"
 
 
 # searches through file for specified website and has a popup with the information
-# if file doesn't exist or there's not data under the website popups occur
+# if file doesn't exist or there's no data under the website popups occur
 def search_websites():
     website = website_entry.get()
     try:
